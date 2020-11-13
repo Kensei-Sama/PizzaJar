@@ -1,13 +1,38 @@
 h1{
   font-family: fantasy;
+  font-size: 50px;
   width: px;
   height: 30px;
   text-align: center;
-  padding: 50px;
+  padding: 100px;
+  padding-bottom: px;
 }
+
 h2{
   width: px;
   height: 30px;
   text-align: left;
   padding: 50px;
+}
+
+li{
+  padding: 5px;
+}
+
+.buttonOfOrder{
+  font-family: fantasy;
+  font-size: 100px;
+  text-align: center;
+  width: 1000px;
+  height: 300px;
+  padding: px;
+}
+
+.buttonOfRegistration{
+  font-family: fantasy;
+  font-size: 100px;
+  text-align: center;
+  width: 1000px;
+  height: 300px;
+  padding: px;
 }
