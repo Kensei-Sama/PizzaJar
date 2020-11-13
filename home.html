@@ -8,16 +8,23 @@
   <body>
     <h1>Üdvözöllek a Pizza Jar-ban!</h1>
 
-    <form action="/order.html" method="get"> /*error*/
       <center>
         <button
+        onclick="document.location='order.html'"
+        class="buttonOfRegistration"
+        type="submit"
+        name="regisztracio">
+          Regisztráció
+        </button>
+
+        <button
+        onclick="document.location='order.html'"
         class="buttonOfOrder"
         type="submit"
         name="rendeles">
           Rendelés
         </button>
       </center>
-    </form>
 
   </body>
 </html>
