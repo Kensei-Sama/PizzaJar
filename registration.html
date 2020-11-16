@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel = 'stylesheet' href = 'CSS/pizza_style.css'>
+    <link rel='stylesheet' type="text/css" href='CSS/pizza_style.css'>
     <title>Regisztráció</title>
   </head>
   <body>
@@ -65,15 +65,19 @@
             <fieldset>
               <legend>Hírlevél</legend>
               <ol>
-                <li><label for="newsletter_yes"> <input type= checkbox id="newsletter_yes"/>Igen</label></li>
-                <li><label for="newsletter_no"> <input type= checkbox id="newsletter_no"/>Nem</label></li>
+                <li>
+                  <input type="radio" id="yes" name="yes_or_no" value="yes">
+                  <label for="yes">Igen</label>
+                </li>
+                <li>
+                  <input type="radio" id="no" name="yes_or_no" value="no">
+                  <label for="no">Nem</label>
+                </li>
               </ol>
             </fieldset>
 
           </ol>
         </fieldset>
-
-
 
       </form>
     </div>

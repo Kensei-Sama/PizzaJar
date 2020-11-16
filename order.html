@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/pizza_style.css">
+    <link rel='stylesheet' type="text/css" href='CSS/pizza_style.css'>
     <title>Rendelés</title>
   </head>
   <body>
@@ -13,18 +13,22 @@
       <form id="etlap" action="" method="post">
         <fieldset>
           <legend>Pizzák</legend>
-          <ul>
-              <li>
-                <label for="bbq">BBQ</label>
-                <input type="button" name="bbq">
-              </li>
-              <li>
-                <input type="button" name="pizzaname" value="BBQ">
-              </li>
-              <li>
-                <input type="button" name="pizzaname" value="Húsimádó">
-              </li>
-            </ul>
+
+          <div class="pizzas">
+            <table>
+              <tr>
+                <td>
+                    <center><label for="gombas">Gombás</label>
+                    <br>
+                    <img
+                    src="https://stonespizza.hu/kepek/pizzak/gombas_kicsi.jpg"
+                    alt="gombas">
+                    </center>
+                </td>
+              </tr>
+            </table>
+          </div>
+
         </fieldset>
       </form>
     </div>
