@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
 h1{
-  font-family: fantasy;
   font-size: 50px;
   font-size: px;
   width: px;
   height: 30px;
-  text-align: center;
   padding: 100px;
   padding-bottom: px;
 }
@@ -36,38 +41,41 @@ td{
   border: 1px solid black;
 }
 
-.pizzas{
-
+li {
+  list-style-type: none;
 }
 
-.pizzas td{
-  margin: px;
+.form-control {
+  width: 400px;
+  margin: auto;
 }
 
-.pizzas label{
+#registration {
+  margin-top: 100px;
+}
+
+.pizza {
+  margin: auto;
+}
+
+.check {
+  width: 40px;
+}
+
+.back {
+  margin-bottom: 10px;
+}
+
+.buttonOfOrder, .buttonOfRegistration {
   font-size: 30px;
-  margin: 30px;
-  text-align: right;
-}
-
-.pizzas img{
-  width: 200px;
-}
-
-.buttonOfRegistration{
-  font-family: fantasy;
-  font-size: 100px;
-  text-align: center;
-  width: 1000px;
-  height: 300px;
-  padding: px;
-}
-
-.buttonOfOrder{
-  font-family: fantasy;
-  font-size: 100px;
-  text-align: center;
-  width: 1000px;
-  height: 300px;
+  width: auto;
+  height: 60px;
   margin-top: 30px;
+}
+
+.end {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  margin: auto;
 }
